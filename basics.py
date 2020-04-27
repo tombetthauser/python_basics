@@ -29,4 +29,28 @@
 # print(mynumber, mytext)
 
 
-## Coding Exercise 01 ---------------------------------------
+## 11. Simple Types: Integers, Strings, and Floats ---------------------------------------
+
+# x = 2
+# y = '3'
+# z = 5.5
+# l = [1,2,3]
+# m = {1: 2}
+
+# print(type(x), type(y), type(z), type(l), type(m))
+
+# list = [1, 2, 3]
+# dict = {1: "cat", 2: "dog"}
+# print(type(list), type(dict))
+
+# range = list(range(1, 11))
+# print(range)
+
+# badrange = list(range("a", "z"))
+# print(range)
+
+# emptylist = list(range(5, 0))
+# print(badrange2)
+
+coolrange = list(range(1, 100, 7))
+print(coolrange)
