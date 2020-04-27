@@ -52,5 +52,22 @@
 # emptylist = list(range(5, 0))
 # print(badrange2)
 
-coolrange = list(range(1, 100, 7))
-print(coolrange)
+# coolrange = list(range(1, 100, 7))
+# print(coolrange)
+
+# listdir = dir(list)
+# dirtype = type(listdir)
+# print(dirtype)
+# print(listdir)
+
+# helpme = help(list.insert)
+# print(help)
+
+# allfunctions = dir(__builtins__)
+# print(allfunctions)
+
+# l = [1,2,5,3,2,4,6,9,4,3,2]
+# length = len(l)
+# mysum = sum(l)
+# mean = mysum / length
+# print(mean)
