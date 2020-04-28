@@ -293,3 +293,6 @@
 
 # def foo(name):
 #     return "Hi %s" % name
+
+# def foo(name):
+#     return "Hi %s" % name.title()
