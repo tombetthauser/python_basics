@@ -204,3 +204,13 @@
 #                      "Marry Simpons": "+423998200919"}
 #     phone_numbers["Marry Simpsons"]
 #     Output: '+423998200919'
+
+# import time
+# timestamp = int(time.time())
+# print(timestamp)
+
+# def foo(temp):
+#     if temp > 7:
+#         return "Warm"
+#     else:
+#         return "Cold"
