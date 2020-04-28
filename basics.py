@@ -214,3 +214,11 @@
 #         return "Warm"
 #     else:
 #         return "Cold"
+
+# def foo(temp):
+#     if temp > 25:
+#         return "Hot"
+#     elif temp > 15:
+#         return "Warm"
+#     else:
+#         return "Cold"
