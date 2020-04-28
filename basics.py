@@ -344,3 +344,10 @@
 # for num in colors:
 #     if num > 50:
 #         print(num)
+
+
+colors = [11, 34.1, 98.2, 43, 45.1, 54, 54]
+
+for num in colors:
+    if isinstance(num, int):
+        print(num)
