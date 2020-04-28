@@ -71,3 +71,21 @@
 # mysum = sum(l)
 # mean = mysum / length
 # print(mean)
+
+# student_grades = [9.1, 8.8, 7.5]
+# student_grades.sort()
+# student_grades.reverse()
+# max_value = student_grades[0]
+# print(max_value)
+
+# student_grades = [9.1, 8.8, 7.5]
+# # max_value = max(student_grades)
+# student_grades.sort()
+# max_value = student_grades[len(student_grades) - 1]
+# print(max_value)
+
+## DID YOU KNOW?
+
+# Python is mainly used for automation purposes, web apps, and data science. 
+# Many big companies like Instagram, Facebook, and Amazon use Python in different 
+# parts of their products. For example, Facebook uses Python to process images.
