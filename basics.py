@@ -468,12 +468,18 @@
 #     The loop above will print out the string inside print() over and over again until the 20th of August, 2090.
 
 
+### LIST COMPREHENSION ONE-LINERS ---------------------------------------------------------------------------------------------
+
 # def foo(mylist):
 #     return [ele for ele in mylist if isinstance(ele, (int, float))]
 
 # def foo(mylist):
-#     return [ele for ele in mylist if ele > 0]
+# #     return [ele for ele in mylist if ele > 0]
+
+
+# def foo(mylist):
+#     return [ele if isinstance(ele, (int, float)) else 0 for ele in mylist]
 
 
 def foo(mylist):
-    return [ele if isinstance(ele, (int, float)) else 0 for ele in mylist]
+    return sum([float(ele) for ele in mylist])
