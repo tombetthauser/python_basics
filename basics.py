@@ -471,5 +471,9 @@
 # def foo(mylist):
 #     return [ele for ele in mylist if isinstance(ele, (int, float))]
 
+# def foo(mylist):
+#     return [ele for ele in mylist if ele > 0]
+
+
 def foo(mylist):
-    return [ele for ele in mylist if ele > 0]
+    return [ele if isinstance(ele, (int, float)) else 0 for ele in mylist]
