@@ -468,5 +468,8 @@
 #     The loop above will print out the string inside print() over and over again until the 20th of August, 2090.
 
 
+# def foo(mylist):
+#     return [ele for ele in mylist if isinstance(ele, (int, float))]
+
 def foo(mylist):
-    return [ele for ele in mylist if isinstance(ele, (int, float))]
+    return [ele for ele in mylist if ele > 0]
