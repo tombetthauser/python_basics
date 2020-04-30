@@ -485,26 +485,103 @@
 #     return sum([float(ele) for ele in mylist])
 
 
-# Summary: List Comprehensions - -----------------------------------------------------------------------------------------------
+# # Summary: List Comprehensions - -----------------------------------------------------------------------------------------------
+
+# In this section you learned that:
+
+#     A list comprehension is an expression that creates a list by iterating over another container.
+
+#     A basic list comprehension:
+
+#         [i*2 for i in [1, 5, 10]]
+
+#     Output: [2, 10, 20]
+
+#     List comprehension with if condition:
+
+#         [i*2 for i in [1, -2, 10] if i > 0]
+
+#     Output: [2, 20]
+
+#     List comprehension with an if and else condition:
+
+#         [i*2 if i > 0 else 0 for i in [1, -2, 10]]
+
+#     Output: [2, 0, 20]
+
+
+# Summary: More on Functions
+
+# In this section you learned that:
+
+#     Functions can have more than one parameter:
+
+#     def volume(a, b, c):
+#         return a * b * c
+
+#     Functions can have default parameters(e.g. coefficient):
+
+#     def converter(feet, coefficient=3.2808):
+#         meters = feet / coefficient
+#         return meters
+
+#     print(converter(10))
+
+# Output: 3.0480370641306997
+
+# Arguments can be passed as non-keyword(positional) arguments(e.g. a) or keyword arguments(e.g. b=2 and c=10):
+
+#     def volume(a, b, c):
+#         return a * b * c
+
+#     print(volume(1, b=2, c=10))
+
+#     An * args parameter allows the  function to be called with an arbitrary number of non-keyword arguments:
+
+#     def find_max(*args):
+#         return max(args)
+#     print(find_max(3, 99, 1001, 2, 8))
+
+# Output: 1001
+
+# An ** kwargs parameter allows the function to be called with an arbitrary number of keyword arguments:
+
+#     def find_winner(**kwargs):
+#         return max(kwargs, key=kwargs.get)
+
+#     print(find_winner(Andy=17, Marry=19, Sim=45, Kae=34))
+
+# Output: Sim
+
+
+# file = open("data.txt")
+# content = file.read()
+# content = content.split("\n")
+# for ele in content:
+#   print(ele)
+
+Summary: File Processing
 
 In this section you learned that:
 
-    A list comprehension is an expression that creates a list by iterating over another container.
+    You can read an existing file with Python:
 
-    A basic list comprehension:
+    with open("file.txt") as file:
+        content = file.read()
 
-        [i*2 for i in [1, 5, 10]]
+    You can create a new file with Python and write some text on it:
 
-    Output: [2, 10, 20]
+    with open("file.txt", "w") as file:
+        content = file.write("Sample text")
 
-    List comprehension with if condition:
+    You can append text to an existing file without overwriting it:
 
-        [i*2 for i in [1, -2, 10] if i > 0]
+    with open("file.txt", "a") as file:
+        content = file.write("More sample text")
 
-    Output: [2, 20]
+    You can both append and read a file with:
 
-    List comprehension with an if and else condition:
-
-        [i*2 if i > 0 else 0 for i in [1, -2, 10]]
-
-    Output: [2, 0, 20]
+    with open("file.txt", "a+") as file:
+        content = file.write("Even more sample text")
+        file.seek(0)
+        content = file.read()

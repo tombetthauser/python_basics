@@ -1,0 +1,6 @@
+cats
+dogs
+frogs
+logs
+pogs
+smogs
