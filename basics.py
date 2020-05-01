@@ -585,3 +585,6 @@
 #         content = file.write("Even more sample text")
 #         file.seek(0)
 #         content = file.read()
+
+
+# Hi ________, I'm a recent app academy grad coming from a Lib Arts background hoping to get into backend development and I saw your profile pop up. If you have some time I’d love to hear more about your work at ___________ and what the transition was like for you. Thanks in advance!
