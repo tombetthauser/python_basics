@@ -45,6 +45,7 @@
 # The supermarkets.json file can be found inside the supermarkets.zip file attached in the previous lecture.
 
 
+import cv2
 Note on Loading Excel Files
 
 In the next lecture you're also going to learn how to load Excel (.xlsx) files in Python with pandas. Pandas may require the xlrd library as a dependency. If you get an error such as ModuleNotFoundError: No module named 'xlrd', you can fix the error by installing xlrd:
@@ -53,3 +54,19 @@ pip install xlrd
 or
 
 pip3 install xlrd
+
+
+
+# Installing OpenCV
+
+# In the next lecture and in Section 17 we will use the OpenCV image processing library. Let us first make sure you have installed the OpenCV library. OpenCV is also referred to as cv2 in Python.
+
+
+# Install OpenCV:
+
+# 1. Open the command line and type:
+
+# pip install opencv-python
+
+# 2. Open a Python session and try:
+
