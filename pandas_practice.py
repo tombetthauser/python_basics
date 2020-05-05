@@ -16,3 +16,15 @@
 # in jupyter press esc and dd (d two times) to delete
 # lookup more keyboard shortcuts under the help dropdown under keyboard shortcuts
 # once youre done with a session just close the browser tabs and to reopen just relocate to directory with a notebook and command line $ jupyter notebook
+
+
+# Exercise: Loading JSON Files
+
+In  the previous lecture you learned that you can load a CSV file with this code:
+
+    import pandas
+    df1 = pandas.read_csv("supermarkets.csv")
+
+Try loading the supermarkets.json file for this exercise using read_json instead of read_csv.
+
+The supermarkets.json file can be found inside the supermarkets.zip file attached in the previous lecture.
