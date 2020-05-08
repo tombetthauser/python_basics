@@ -45,6 +45,8 @@
 # The supermarkets.json file can be found inside the supermarkets.zip file attached in the previous lecture.
 
 
+import numpy
+import pandas
 import cv2
 Note on Loading Excel Files
 
@@ -70,3 +72,54 @@ pip3 install xlrd
 
 # 2. Open a Python session and try:
 
+
+#
+# 
+# 
+#  FROM JUPYTER SESSION
+
+# dt1 = pandas.read_csv("sota.csv")
+
+# len(dt1.columns)
+
+# 104
+
+# len(dt1.index)
+
+# 99
+
+# dt1.to_numpy()[0:2, 0:4]
+
+# array([['2019/08/06 5:24:58 PM PDT', 'M', 'W', 'Prefer not to say'],
+#        ['2019/08/09 2:38:06 PM PDT', 'Female', 'White', 'No']],
+#       dtype=object)
+
+# ​
+
+
+# n = numpy.arange(27)
+
+# n.reshape(3, 3, 3)
+
+# array([[[0,  1,  2],
+#         [3,  4,  5],
+#         [6,  7,  8]],
+
+#        [[9, 10, 11],
+#         [12, 13, 14],
+#         [15, 16, 17]],
+
+#        [[18, 19, 20],
+#         [21, 22, 23],
+#         [24, 25, 26]]])
+
+# m = numpy.asarray([[123, 12, 123, 12, 33], [], []])
+
+# type(m)
+
+# numpy.ndarray
+
+
+# dt1
+
+# pandas.core.frame.DataFrame
